@@ -40,5 +40,18 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesPs/rnUtecUiKit.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/CharlesPs/rnUtecUiKit/issues"
+  },
+  "homepage": "https://github.com/CharlesPs/rnUtecUiKit#readme",
+  "description": ""
 }
