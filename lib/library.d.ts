@@ -1,2 +1,3 @@
 import Hello from './Components/Hello/Hello';
-export { Hello, };
+import Picker from './Components/Picker/Picker';
+export { Hello, Picker, };
