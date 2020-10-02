@@ -2,6 +2,8 @@
   "name": "rn-utec-ui-kit",
   "version": "0.0.1",
   "private": true,
+  "main": "lib/library.js",
+  "types": "lib/library.d.ts",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
