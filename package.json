@@ -1,7 +1,9 @@
 {
   "name": "rn-utec-ui-kit",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "author": "Carlos Aguinaga <andres.aguinaga@gmail.com>",
+  "license": "MIT",
   "main": "lib/library.js",
   "types": "lib/library.d.ts",
   "scripts": {
@@ -13,7 +15,8 @@
     "build": "tsc --project ./tsconfig.json",
     "clean-node": "rm -rf node_modules",
     "clean-ios": "cd ios && xcodebuild clean && rm -rf build Pods && cd ..",
-    "clean-android": "cd android && ./gradlew clean && rm -rf build app/build .gradle && cd .."
+    "clean-android": "cd android && ./gradlew clean && rm -rf build app/build .gradle && cd ..",
+    "publish-patch": "npm version patch && npm publish --registry http://localhost:4873"
   },
   "dependencies": {
     "@react-native-community/picker": "^1.8.0",
